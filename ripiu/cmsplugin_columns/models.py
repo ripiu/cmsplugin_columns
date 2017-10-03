@@ -7,9 +7,24 @@ class LiquidColumnsPluginModel(CMSPlugin):
     Liquid columns
     """
     
+    TWO   = 2
+    THREE = 3
+    FOUR  = 4
+    FIVE  = 5
+    SIX   = 6
+    COLUMNS_CHOICES = (
+        (TWO, _('Two')),
+        (THREE, _('Three')),
+        (FOUR, _('Four')),
+        (FIVE, _('Five')),
+        (SIX, _('Six')),
+    )
+    
     num_columns = models.IntegerField(
-        _('columns'), default=2, blank=False,
-        help_text=_('How many columns for this section?')
+        _('columns'),
+        choices = COLUMNS_CHOICES,
+        default = TWO,
+        help_text = _('How many columns for this section?')
     )
     
     def __str__(self):
