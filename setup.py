@@ -1,4 +1,4 @@
-from setuptools import setup #, find_packages
+from setuptools import setup
 
 from ripiu.cmsplugin_filer_svg import __version__
 
@@ -13,7 +13,7 @@ setup(
     author_email='matteo@studioripiu.it',
     # find_packages doesn't like implicit namespace packages:
     # https://stackoverflow.com/questions/27047443/
-    # packages=find_packages(), 
+    # packages=find_packages(),
     packages=['ripiu.cmsplugin_columns'],
     classifiers=[
         'Development Status :: 3 - Alpha',
