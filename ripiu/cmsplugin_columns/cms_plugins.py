@@ -12,7 +12,7 @@ class LiquidColumnsPlugin(CMSPluginBase):
     """
     model = LiquidColumnsPluginModel
     name = _('Liquid columns')
-    module = _("Multi Columns")
+    module = _('Multi Columns')
     render_template = 'ripiu/cmsplugin_columns/columns.html'
     allow_children = True
 

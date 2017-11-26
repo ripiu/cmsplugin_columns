@@ -3,11 +3,11 @@ from setuptools import setup
 from ripiu.cmsplugin_filer_svg import __version__
 
 setup(
-    name="ripiu.cmsplugin_columns",
+    name='ripiu.cmsplugin_columns',
     version=__version__,
     url='https://github.com/ripiu/ripiu.cmsplugin_columns',
     license='BSD-new',
-    description="Liquid columns",
+    description='Liquid columns',
     long_description=open('README.rst').read(),
     author='matteo vezzola',
     author_email='matteo@studioripiu.it',
@@ -26,8 +26,8 @@ setup(
     ],
     # TODO: check requirements
     install_requires=[
-        "Django >= 1.8",
-        "django-cms >= 3.1",
+        'Django >= 1.8',
+        'django-cms >= 3.1',
     ],
     # ripiu is an implicit namespace package, so I need python>=3.3
     python_requires='>=3.3',
