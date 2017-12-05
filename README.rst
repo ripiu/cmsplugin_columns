@@ -1,4 +1,4 @@
-cmsplugin_articles
+cmsplugin_columns
 ===================
 
 Liquid columns
