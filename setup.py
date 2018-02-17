@@ -5,7 +5,7 @@ from ripiu.cmsplugin_filer_svg import __version__
 setup(
     name='ripiu.cmsplugin_columns',
     version=__version__,
-    url='https://github.com/ripiu/ripiu.cmsplugin_columns',
+    url='https://github.com/ripiu/cmsplugin_columns',
     license='BSD-new',
     description='Liquid columns',
     long_description=open('README.rst').read(),
